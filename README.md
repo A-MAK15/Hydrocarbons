@@ -32,3 +32,20 @@ To run the project, ensure you have the following installed:
   - **rdKit**
   - **seaborn**
   - **scikit-learn**
+
+## Results
+Regression was utilized to produce this model, the equation for the melting point is y = 0.98639651(Atomic_Weight) + 38.33524031(Aromatic_Ring) - 198.04331785.
+The equation for the boiling point is y = 2.27486982(Atomic_Weight) + 26.90195984(Aromatic_Ring) - 136.90058508. Other results can be seen below:
+**Melting Point**
+- Coefficients                      	: [[ 0.98639651 38.33524031]]
+- Intercepts                        	: [-198.04331785]
+- Mean squared error                	: 2220.421
+- Root mean squared error (RMSE)    	: 47.121
+- Coefficient of determination (R^2)	: 0.637
+
+**Boiling Point**
+- Coefficients                      	: [[ 2.27486982 26.90195984]]
+- Intercepts                        	: [-136.90058508]
+- Mean squared error                	: 353.49
+- Root mean squared error (RMSE)    	: 18.801
+- Coefficient of determination (R^2)	: 0.94
