@@ -49,3 +49,7 @@ The equation for the boiling point is y = 2.27486982(Atomic_Weight) + 26.9019598
 - Mean squared error                	: 353.49
 - Root mean squared error (RMSE)    	: 18.801
 - Coefficient of determination (R^2)	: 0.94
+
+## Future Work
+- Bundle code for repetitive tasks.
+- Web app for better interactivity. 
